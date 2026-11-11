@@ -6,9 +6,9 @@ Video: can2.mp4
 Model: yolov12s_best.pt
 Tracker: ByteTrack
 Confidence: 0.5
-Video FPS: 24.00
-Resolution: 426x240
-Frames Processed: 121
+Video FPS: 30.00
+Resolution: 1920x1080
+Frames Processed: 152
 
 Can Count: 5
 Plastic Bottle Count: 0

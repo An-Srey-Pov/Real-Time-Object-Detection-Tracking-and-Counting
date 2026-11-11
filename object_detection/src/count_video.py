@@ -100,7 +100,8 @@ root = Path(__file__).resolve().parents[1]
 model_path = root / "models" / "yolov12s_best.pt"
 
 video_candidates = [
-    root / "data" / "videos" / "can.mp4",
+    root / "data" / "videos" / "plastic_bottle3.mp4",
+    # root / "data" / "videos" / "can2.mp4",
 ]
 
 video_path = next(
