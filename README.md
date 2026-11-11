@@ -5,7 +5,7 @@ This project detects, tracks, and counts recyclable objects, specifically cans a
 - YOLOv8s
 - YOLOv9s
 - YOLOv10s
-- YOLO11s
+- YOLOv11s
 - YOLOv12s
 
 The models were trained and evaluated using a common experimental configuration
@@ -94,5 +94,5 @@ python .\object_detection\src\count_video.py
 ## Notes
 
 - The model file is expected at [object_detection/models/best.pt](object_detection/models/best.pt).
-- If no image path is provided, the script defaults to [object_detection/data/images/test3.jpg](object_detection/data/images/test3.jpg).
+- If no image path is provided, the image detection script defaults to [object_detection/data/images/negative_background.png](object_detection/data/images/negative_background.png).
 - Output images are stored in [object_detection/output](object_detection/output).
